@@ -1,0 +1,9 @@
+$colorMain: #333;
+
+// flex 上下左右居中 及 设置方向
+@mixin fajf($atype: center, $jtype: center, $ftype: row) {
+  display: flex;
+  align-items: $atype;
+  justify-content: $jtype;
+  flex-direction: $ftype;
+}
